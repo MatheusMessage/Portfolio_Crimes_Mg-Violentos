@@ -1,0 +1,35 @@
+# ─── IGNORAR ARQUIVOS ESPECÍFICOS EM src/ ──────────────
+src/carregar_geojson.py
+src/download_geojson.py
+src/mapa_interativo.py
+src/mapas_crime.py
+src/__pycache__/
+
+# ─── IGNORAR ARQUIVOS NA RAIZ ─────────────────────────
+teste.ipynb
+
+# ─── IGNORAR PASTA COMPLETA DO DASHBOARD ─────────────
+dashboard/
+
+# ─── IGNORAR BACKUPS EM docs/ ────────────────────────
+docs/backups_data/
+
+# ─── IGNORAR BASE DE DADOS E DADOS DE ENTRADA ────────
+data/database/
+data/geojson/
+data/processed/
+
+# ─── OPCIONAL: ITENS GERAIS QUE VALEM PARA QUALQUER PROJETO PYTHON ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+*.tmp
+*.swp
+*.swo
+.ipynb_checkpoints/
+*.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
