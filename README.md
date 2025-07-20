@@ -4,12 +4,25 @@ Este projeto realiza uma análise exploratória detalhada e modelagem preditiva 
 
 ## 📁 Estrutura do Projeto
 
-Crimes_Violentos_MG/ ├── data/ │   ├── raw/                # Dados originais │   └── processed/          # Dados tratados e unificados ├── database/               # Bancos de dados SQLite ├── docs/                   # Documentos auxiliares (IBGE, imagens, etc.) ├── notebooks/ │   ├── 01_exploracao_dados.ipynb │   ├── 02_limpeza_tratamento.ipynb │   ├── 03_conversao_ajustes_sql.ipynb │   ├── 04_visualizacoes.ipynb │   └── 05_conclusao.ipynb ├── src/                    # Scripts auxiliares (.py) ├── dashboard/              # Dashboard interativo com Dash (em desenvolvimento) ├── .gitignore ├── README.md └── requirements.txt
-
-
-markdown
-Copiar
-Editar
+````
+Crimes_Violentos_MG/
+├── data/
+│ ├── raw/ # Dados originais
+│ ├── processed/ # Dados tratados e unificados
+│ └── database/ # Bancos de dados SQLite
+├── docs/ # Documentos auxiliares (IBGE, imagens, etc.)
+├── notebooks/
+│ ├── 01_exploracao_dados.ipynb
+│ ├── 02_limpeza_tratamento.ipynb
+│ ├── 03_conversao_ajustes_sql.ipynb
+│ ├── 04_visualizacoes.ipynb
+│ └── 05_conclusao.ipynb
+├── src/ # Scripts auxiliares (.py)
+├── dashboard/ # Dashboard interativo com Dash (em desenvolvimento)
+├── .gitignore
+├── README.md
+└── requirements.txt
+````
 
 ## 🧪 Tecnologias Utilizadas
 
@@ -68,7 +81,7 @@ Editar
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/Crimes_Violentos_MG.git
+   git clone https://github.com/seuusuario/Portfolio_Crimes_Mg-Violentos.git
 
 Instale as dependências:
 pip install -r requirements.txt
